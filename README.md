@@ -1,9 +1,9 @@
 <a href="https://projectx-eight-gilt.vercel.app/">
-  <h1 align="center">McSoft: ERP Mobile First</h1>
+  <h1 align="center">Price Miner: ETL de Dados com Ofertas </h1>
 </a>
 
 <p align="center">
-  Controle financeiro e operacional de pequenos negócios diretamente no celular.
+  Processo de ETL de dados de ofertas nas Lojas Mercado Livre e Magazine Luiza.
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <a href="#introduction"><strong>Introduction</strong></a> ·
-  <a href="#installation"><strong>Installation</strong></a> ·
-  <a href="#tech-stack--features"><strong>Tech Stack + Features</strong></a> ·
-  <a href="#author"><strong>Author</strong></a> ·
-  <a href="#contributing"><strong>Credits</strong></a>
+  <a href="#introduction"><strong>Python</strong></a> ·
+  <a href="#installation"><strong>Apache Airflow</strong></a> ·
+  <a href="#tech-stack--features"><strong>Django</strong></a> ·
+  <a href="#author"><strong>Author</strong>APIs</a> ·
+  <a href="#contributing"><strong>Database</strong></a>
 </p>
 <br/>
 
