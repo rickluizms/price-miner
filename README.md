@@ -30,7 +30,3 @@ Este projeto é aberto a contribuições! Se você tem interesse em melhorar o *
 ## Licença
 
 Este projeto está licenciado sob a [MIT License](LICENSE).
-
-
-
-
