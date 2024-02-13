@@ -16,11 +16,11 @@
 </p>
 
 <p align="center">
-  <a href="#introduction"><strong>Python</strong></a> ·
-  <a href="#installation"><strong>Apache Airflow</strong></a> ·
-  <a href="#tech-stack--features"><strong>Django</strong></a> ·
-  <a href="#author"><strong>Author</strong>APIs</a> ·
-  <a href="#contributing"><strong>Database</strong></a>
+  <a href="#"><strong>Python</strong></a> ·
+  <a href="#"><strong>Apache Airflow</strong></a> ·
+  <a href="#"><strong>Django</strong></a> ·
+  <a href="#"><strong>API</strong></a> ·
+  <a href="#"><strong>Database</strong></a>
 </p>
 <br/>
 
