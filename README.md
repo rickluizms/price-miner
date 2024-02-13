@@ -30,9 +30,13 @@ Bem-vindo ao Price Miner, um projeto de ETL end-to-end para coletar, processar e
 
 ## Descrição do Projeto
 
-### Extração de Dados - Back-End (price-miner-services)
+### Database
 
-O processo de Extração de dados é feito por uma API Python construída em Django, com funções CRUD para administrar o banco de dados. 
+Inicialmente, estamos utilizando um banco de dados SQLite do próprio django, com apenas 1 tabela Products.
+
+### price-miner-services API
+
+O processo de Extração de dados é feito por uma API Python construída em Django, com funções CRUD no banco de dados. 
 A API também possui os serviços de extração e transformação de dados, podendo realizar a automação do processo utilizando os endpoint:
 
 - Extract Dados (extract_{Abreviação da Loja}: Extrair e Transformar os dados (Realizado 1 Vez por dia)
@@ -40,11 +44,11 @@ A API também possui os serviços de extração e transformação de dados, pode
 - Get Dados (get_{Abreviação da Loja} Obter os dados coletados (Realizado pelo Client)
 
 
-### Automação de ETL
+### price-miner-dags Airflow
 
 O processo de automação da extração, transformação e carga de dados é feita com o airflow:
 
-### Web Site - Front-End (price-miner-web)
+### price-miner-web Web Site
 
 O website comsome a API interna, com os dados atualizados e mostra as ofertas atualizadas.
 
