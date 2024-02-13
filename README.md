@@ -26,19 +26,18 @@
 
 ## Introdução
 
-Bem-vindo ao Mcsoft, onde estamos inaugurando uma nova era na gestão empresarial. Com um sistema ERP de template Mobile First, o Mcsoft redefine como você gerencia, rastreia e otimiza seus processos empresariais, garantindo decisões financeiras mais inteligentes e seguras.
-
-Com o Mcsoft, obtenha insights incomparáveis sobre suas operações comerciais e padrões financeiros, capacitando você a administrar melhor seus recursos e alcançar mais. Confiado pelas empresas mais inovadoras do mundo, o Mcsoft está aqui para revolucionar sua experiência de gestão empresarial.
+Bem-vindo ao Price Miner, um projeto de ETL end-to-end para coletar, processar e disponibilizar ofertas de diversas lojas em um único app.
 
 ## Descrição do Projeto
 
 ### Extração de Dados - Back-End (price-miner-services)
 
-O processo de extração de dados é feito por uma API de serviços com endpoint para controlar seu comportamento como
+O processo de Extração de dados é feito por uma API Python construída em Django, com funções CRUD para administrar o banco de dados. 
+A API também possui os serviços de extração e transformação de dados, podendo realizar a automação do processo utilizando os endpoint:
 
-- Extract Dados (extract_{Abreviação da Loja}
-- Delete Dados (delete_{Abreviação da Loja}
-- Get Dados (get_{Abreviação da Loja}
+- Extract Dados (extract_{Abreviação da Loja}: Extrair e Transformar os dados (Realizado 1 Vez por dia)
+- Delete Dados (delete_{Abreviação da Loja} Deletar Dados de Ofertas Antigas (Realizado 1 Vez por dia)
+- Get Dados (get_{Abreviação da Loja} Obter os dados coletados (Realizado pelo Client)
 
 
 ### Automação de ETL
