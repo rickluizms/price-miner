@@ -25,7 +25,8 @@
 
 Bem-vindo ao Price Miner, um projeto de ETL end-to-end para coletar, processar e disponibilizar ofertas de diversas lojas em um único app.
 
-### Projeto de ETL
+
+## Projeto de ETL
 
 **Extração de Dados** - Web Scraping
 
@@ -53,7 +54,7 @@ Exemplo de consulta:
 ```
 
 
-### Projeto de Automação
+## Projeto de Automação
 
 Para controlar a API e atualizar os dados diariamente utilizamos o airflow para automatizar o workflow de ETL.
 
