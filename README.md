@@ -44,6 +44,7 @@ Exemplo de consulta:
           "img_alt": "Product Title",
           "created_at": "2024-02-14"
       },
+]
 ```
 
 
