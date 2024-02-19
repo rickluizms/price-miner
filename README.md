@@ -13,11 +13,11 @@
 </p>
 
 <p align="center">
-  <a href="#"><strong>Python</strong></a> ·
-  <a href="#"><strong>Apache Airflow</strong></a> ·
-  <a href="#"><strong>Django</strong></a> ·
-  <a href="#"><strong>API</strong></a> ·
-  <a href="#"><strong>Database</strong></a>
+  <a href="#Introdução"><strong>Introdução</strong></a> ·
+  <a href="#Projeto de ETL"><strong>Projeto de ETL</strong></a> ·
+  <a href="#Projeto de Automação"><strong>Projeto de Automação</strong></a> ·
+  <a href="#Projeto Web"><strong>Projeto Web</strong></a> ·
+  <a href="#Tech Stack + Features"><strong>Stack</strong></a>
 </p>
 <br/>
 
@@ -60,9 +60,9 @@ Para controlar a API e atualizar os dados diariamente utilizamos o airflow para 
 
 ![Airflow Workflow](assets/airflow-graph.png)
 
-### Web Site - price-miner-web (Em Breve)
+## Projeto Web - (Em Breve)
 
-Website para exibir as ofertas.
+Website para exibir as ofertas  price-miner-web.
 
 
 ## Tech Stack + Features
