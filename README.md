@@ -12,13 +12,6 @@
   </a>
 </p>
 
-<p align="center">
-  <a href="#Introdução"><strong>Introdução</strong></a> ·
-  <a href="#Projeto de ETL"><strong>Projeto de ETL</strong></a> ·
-  <a href="#Projeto de Automação"><strong>Projeto de Automação</strong></a> ·
-  <a href="#Projeto Web"><strong>Projeto Web</strong></a> ·
-  <a href="#Tech Stack + Features"><strong>Stack</strong></a>
-</p>
 <br/>
 
 ## Introdução
