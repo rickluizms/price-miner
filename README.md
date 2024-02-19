@@ -1,5 +1,5 @@
 <a href="https://projectx-eight-gilt.vercel.app/">
-  <h1 align="center">Price Miner: ETL de Dados com Ofertas </h1>
+  <h1 align="center">Price Miner: ETL de Dados de Promoções </h1>
 </a>
 
 <p align="center">
