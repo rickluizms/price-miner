@@ -7,11 +7,8 @@
 </p>
 
 <p align="center">
-  <!-- <a href="https://twitter.com/placeholder">
-    <img src="https://img.shields.io/twitter/follow/Projectx?style=flat&label=%40projectxy&logo=twitter&color=0bf&logoColor=fff" alt="Twitter" />
-  </a> -->
-  <a href="https://github.com/meglerhagen/projectx/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/meglerhagen/projectx?label=license&logo=github&color=f80&logoColor=fff" alt="License" />
+  <a href="#">
+    <img src="https://img.shields.io/badge/version-1.0-blue" alt="License" />
   </a>
 </p>
 
@@ -28,29 +25,43 @@
 
 Bem-vindo ao Price Miner, um projeto de ETL end-to-end para coletar, processar e disponibilizar ofertas de diversas lojas em um único app.
 
-## Descrição do Projeto
+### Projeto de ETL
 
-### Database
+**Extração de Dados** - Web Scraping
 
-Inicialmente, estamos utilizando um banco de dados SQLite do próprio django, com apenas 1 tabela Products.
+Para extrair os dados das plataformas digitais, utilizamos a técnica de web scraping (raspagem de dados) para obter as informações das ofertas.
 
-### API - price-miner-services
+Todo o processo de Extração, Transformação, Carga e Consulta de dados e feito pela API `price-miner-services`
 
-O processo de Extração de dados é feito por uma API Python construída em Django, com funções CRUD no banco de dados. 
-A API também possui os serviços de extração e transformação de dados, podendo realizar a automação do processo utilizando os endpoint:
+A documentação completa da API pode ser encontrada <a href="https://www.postman.com/interstellar-crescent-948829/workspace/production/collection/22689250-8e6c13d1-c2a2-469d-9365-cfe9b62c59ea?action=share&creator=22689250">aqui</a>.
 
-- Extract Dados (extract_{Abreviação da Loja}: Extrair e Transformar os dados (Realizado 1 Vez por dia)
-- Delete Dados (delete_{Abreviação da Loja} Deletar Dados de Ofertas Antigas (Realizado 1 Vez por dia)
-- Get Dados (get_{Abreviação da Loja} Obter os dados coletados (Realizado pelo Client)
+Exemplo de consulta: 
+
+```
+"products": [
+      {
+          "title": "Product Title",
+          "store": "Store",
+          "price_current": "103",
+          "price_original": "",
+          "discount": "26% OFF",
+          "product_url": "",
+          "img_src": "https://http2.abcde.com/ASDHAKSJHD123123786ds.webp",
+          "img_alt": "Product Title",
+          "created_at": "2024-02-14"
+      },
+```
 
 
-### Airflow - price-miner-dags
+### Projeto de Automação
 
-O processo de automação da extração, transformação e carga de dados é feita com o airflow:
+Para controlar a API e atualizar os dados diariamente utilizamos o airflow para automatizar o workflow de ETL.
 
-### Web Site - price-miner-web
+![Airflow Workflow](assets/airflow-graph.png)
 
-O website comsome a API interna, com os dados atualizados e mostra as ofertas atualizadas.
+### Web Site - price-miner-web (Em Breve)
+
+Website para exibir as ofertas.
 
 
 ## Tech Stack + Features
@@ -59,10 +70,12 @@ O website comsome a API interna, com os dados atualizados e mostra as ofertas at
 
 - [Django](https://www.djangoproject.com/) – Django The web framework for perfectionists with deadlines.
 - [Bootstrap](https://getbootstrap.com/) – A powerful, feature-packed frontend toolkit.
-- 
+
 ### Platforms
 
-- [Azure](https://azure.microsoft.com/en-gb/) – Plataforma de Hospedagem
+- [Apache Airflow](https://airflow.apache.org/) – Plataforma para agendar e monitorar workflows de ETL.
+- [Azure](https://azure.microsoft.com/) – Plataforma de Hospedagem
+- [Oracle](https://www.oracle.com/) - Banco de Dados Cloud
 
 ### UI
 
